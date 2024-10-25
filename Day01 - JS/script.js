@@ -163,7 +163,7 @@ console.log(!d);
 //TODO diffrence between null and undefined  ;
 //type of null
 //type of array
-//let , const ,var ,  diffrence
+//let , const ,var ,  diffrence 
 //strict equality and loose equality .
 
 
