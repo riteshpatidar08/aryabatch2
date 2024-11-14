@@ -20,7 +20,6 @@ console.log('external file');
 //BOOLEAN
 //UNDEFINED
 //NULL
-
 // BIGINT
 // SYMBOL
 

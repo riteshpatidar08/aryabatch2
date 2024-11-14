@@ -3,6 +3,7 @@
 //NOTE TYPE COERSION
 
 // const a = 5 + '5' ;
+// '55'
 // console.log(a)
 // console.log(typeof a )
 
@@ -105,7 +106,8 @@ function sum(a, b) {
 
 //NOTE single line
 //note in the case of single line arrow function we donot need to use the curly braces or return statement
-//NOTE not hoisted
+//NOTE not hoisted;
+
 const multiply = (a, b) => a * b;
 console.log(multiply(3, 4));
 
@@ -165,7 +167,7 @@ console.log(includeResult);
 
 const companies = ['google', 'meta', 'netflix', 'amazon'];
 
-const [item1, , item3, item4, item5] = companies;
+const [item1,item2 , item3, item4, item5] = companies;
 
 console.log(item1, item3, item4);
 
@@ -217,4 +219,8 @@ const {
   address: { state, city },
 } = myDetails;
 console.log(name, birthYear);
-console.log(state, city);
+console.log(state, city); 
+
+
+
+
