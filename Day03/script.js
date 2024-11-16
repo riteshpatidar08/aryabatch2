@@ -278,7 +278,7 @@ const books = {
 
 //chaining 
 
-Object.keys(books).forEach(key=>console.log(key))
+Object.keys(books).forEach(key=>console.log(key)) ;
 
 
 //Object.values() ;
@@ -292,7 +292,8 @@ console.log(entryOutput)
 
 entryOutput.forEach(([key,value])=>{
     console.log(`${key}: ${value}`)
-})
+}) ;
+
 
 
 
