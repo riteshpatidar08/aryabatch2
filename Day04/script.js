@@ -234,12 +234,14 @@ try {
 }
 
  
+const obj  = {
+    firstName : 'ritesh',
+    address : {
+        state : 'mp'
+    }
+}
+   
 
-
-
-
-
-       
 
 
  
