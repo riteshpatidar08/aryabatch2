@@ -178,7 +178,7 @@ newArray.forEach((el)=>{
     el.style.color = 'blue'
 })
 
-//NOTE html collection donot have a foreach method so we have to first convert it into arry to loopo
+//NOTE html collection donot have a foreach method so we have to first convert it into arry to loop
 
 //NOTE querySelectorAll returna a NODELIST which we can directly loop using forEach method : 
 
