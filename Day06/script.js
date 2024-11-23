@@ -154,6 +154,7 @@ const form = document.getElementById('form');
 const user = document.getElementById('user');
 const email = document.getElementById('email');
 console.log(form);
+
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   if (user.value === '') {
@@ -161,7 +162,7 @@ form.addEventListener('submit', (event) => {
     console.log(error);
     error.textContent = 'Required Username';
     error.style.color = 'red';
-    document.body.appendChild(error);
+    user.appendChild(error);
     user.style.border = '1px solid red';
   }
   const formData = {
